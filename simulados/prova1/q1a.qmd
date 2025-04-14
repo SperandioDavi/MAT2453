@@ -1,0 +1,37 @@
+---
+title: "Questão 1 - A"
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+    title-block: true
+execute:
+  echo: true
+  eval: true
+  output: true
+  freeze: false
+---
+
+## Enunciado
+
+1. Calcule, caso existam, os limites abaixo:  
+   a. $\lim_{x \to 2+} \frac{x^2 - 2x}{x^2 - 4x + 4}$
+
+## Resolução
+
+Primeiramente, vamos fatorar a expressão:
+
+$$\frac{x(x-2)}{(x-2)^2}$$
+
+Após a simplificação, temos que:
+
+$$\frac{x}{(x-2)}$$
+
+Como $x > 2$, o termo de baixo tende a $0+$.
+
+## Resposta
+Portanto, a solução é:
+
+$$\lim_{x \to 2+} \frac{x^2 - 2x}{x^2 - 4x + 4} = +\infty$$
+    

@@ -1,0 +1,13 @@
+---
+title: "Simulado 1 - P1"
+format: html
+execute:
+  echo: true
+  eval: true
+  include-in-header: true
+  output: true
+---
+
+1. Calcule, caso existam, os limites abaixo:
+a. [$\lim_{x \to 2+} \frac{x^2 - 2x}{x^2 - 4x + 4}$](q1a.qmd)
+b. [$\lim_{x \to 7} \frac{x - 7}{|x-7|}$](q1b.qmd)

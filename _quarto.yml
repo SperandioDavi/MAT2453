@@ -1,0 +1,32 @@
+project:
+  type: website
+  output-dir: docs
+  
+website:
+  title: "Práticas de Cálculo"
+  navbar:
+    left:
+      - text: "Início"
+        href: index.qmd
+      - text: "Listas"
+        menu:
+          - text: "Lista 1"
+            href: listas/lista1/index.qmd
+      - text: "Simulados"
+        menu:
+          - text: "Prova 1"
+            href: simulados/prova1/index.qmd
+          
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+    title-block: true
+    
+render:
+  - index.qmd
+  - listas/lista1/index.qmd
+  - simulados/prova1/index.qmd
+  - simulados/prova1/q1a.qmd
+  - simulados/prova1/q1b.qmd

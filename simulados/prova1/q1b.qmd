@@ -1,0 +1,20 @@
+---
+title: "Questão 1 - B"
+format: html
+---
+
+# Enunciado:
+1. Calcule, caso existam, os limites abaixo:
+b. $\lim_{x \to 7} \frac{x - 7}{|x-7|}$
+
+# Resolução:
+Para calcular esse limite, vamos determinar os limites laterais.
+
+Começando pelo lado direito, temos que:
+$$\lim_{x \to 7+}\frac{x - 7}{x - 7} = 1$$
+
+Agora pelo lado esquerdo, temos que:
+$$\lim_{x \to 7-}\frac{x - 7}{-x + 7} = \lim_{x \to 7-} (-1)\frac{x-7}{x-7} = -1$$
+## Resposta
+Como os limites laterais são diferentes, podemos afirmar que:
+$$\nexists\lim_{x \to 7}\frac{x-7}{|x-7|}$$

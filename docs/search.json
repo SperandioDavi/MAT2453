@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "simulados/prova1/q1b.html",
+    "href": "simulados/prova1/q1b.html",
+    "title": "Questão 1 - B",
+    "section": "",
+    "text": "1 Enunciado:\n\nCalcule, caso existam, os limites abaixo:\n\n\n\\(\\lim_{x \\to 7} \\frac{x - 7}{|x-7|}\\)\n\n\n\n2 Resolução:\nSolução aqui:"
+  },
+  {
+    "objectID": "simulados/prova1/index.html",
+    "href": "simulados/prova1/index.html",
+    "title": "Simulado 1 - P1",
+    "section": "",
+    "text": "Calcule, caso existam, os limites abaixo:\n\n\n\\(\\lim_{x \\to 2+} \\frac{x^2 - 2x}{x^2 - 4x + 4}\\)\n\\(\\lim_{x \\to 7} \\frac{x - 7}{|x-7|}\\)"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Início",
+    "section": "",
+    "text": "Organização das resoluções por listas e simulados.\n\n\n\nLista 1\n\n\n\n\n\nProva 1"
+  },
+  {
+    "objectID": "index.html#listas",
+    "href": "index.html#listas",
+    "title": "Início",
+    "section": "",
+    "text": "Lista 1"
+  },
+  {
+    "objectID": "index.html#simulados",
+    "href": "index.html#simulados",
+    "title": "Início",
+    "section": "",
+    "text": "Prova 1"
+  },
+  {
+    "objectID": "simulados/prova1/q1a.html",
+    "href": "simulados/prova1/q1a.html",
+    "title": "Questão 1 - A",
+    "section": "",
+    "text": "Calcule, caso existam, os limites abaixo:\n\n\\(\\lim_{x \\to 2+} \\frac{x^2 - 2x}{x^2 - 4x + 4}\\)"
+  },
+  {
+    "objectID": "simulados/prova1/q1a.html#enunciado",
+    "href": "simulados/prova1/q1a.html#enunciado",
+    "title": "Questão 1 - A",
+    "section": "",
+    "text": "Calcule, caso existam, os limites abaixo:\n\n\\(\\lim_{x \\to 2+} \\frac{x^2 - 2x}{x^2 - 4x + 4}\\)"
+  },
+  {
+    "objectID": "simulados/prova1/q1a.html#resolução",
+    "href": "simulados/prova1/q1a.html#resolução",
+    "title": "Questão 1 - A",
+    "section": "2 Resolução",
+    "text": "2 Resolução\nPrimeiramente, vamos fatorar a expressão:\n\\[\\frac{x(x-2)}{(x-2)^2}\\]\nApós a simplificação, temos que:\n\\[\\frac{x}{(x-2)}\\]\nComo \\(x &gt; 2\\), o termo de baixo tende a \\(0+\\)."
+  },
+  {
+    "objectID": "simulados/prova1/q1a.html#resposta",
+    "href": "simulados/prova1/q1a.html#resposta",
+    "title": "Questão 1 - A",
+    "section": "3 Resposta",
+    "text": "3 Resposta\nPortanto, a solução é:\n\\[\\lim_{x \\to 2+} \\frac{x^2 - 2x}{x^2 - 4x + 4} = +\\infty\\]"
+  }
+]

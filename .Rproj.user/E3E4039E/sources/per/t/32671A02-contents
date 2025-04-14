@@ -1,0 +1,14 @@
+---
+title: "Início"
+format: html
+---
+
+# Práticas de Cálculo
+
+Organização das resoluções por listas e simulados.
+
+## Listas
+- [ Lista 1](listas/lista1/index.qmd)
+
+## Simulados
+- [ Prova 1](simulados/prova1/index.qmd)
