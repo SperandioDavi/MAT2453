@@ -4,7 +4,21 @@
     "href": "simulados/prova1/q1b.html",
     "title": "Questão 1 - B",
     "section": "",
-    "text": "1 Enunciado:\n\nCalcule, caso existam, os limites abaixo:\n\n\n\\(\\lim_{x \\to 7} \\frac{x - 7}{|x-7|}\\)\n\n\n\n2 Resolução:\nSolução aqui:"
+    "text": "Calcule, caso existam, os limites abaixo:\n\n\\(\\lim_{x \\to 7} \\frac{x - 7}{|x-7|}\\)"
+  },
+  {
+    "objectID": "simulados/prova1/q1b.html#enunciado",
+    "href": "simulados/prova1/q1b.html#enunciado",
+    "title": "Questão 1 - B",
+    "section": "",
+    "text": "Calcule, caso existam, os limites abaixo:\n\n\\(\\lim_{x \\to 7} \\frac{x - 7}{|x-7|}\\)"
+  },
+  {
+    "objectID": "simulados/prova1/q1b.html#resolução",
+    "href": "simulados/prova1/q1b.html#resolução",
+    "title": "Questão 1 - B",
+    "section": "2 Resolução",
+    "text": "2 Resolução\nPara calcular esse limite, vamos determinar os limites laterais.\nComeçando pelo lado direito, temos que: \\[\\lim_{x \\to 7+}\\frac{x - 7}{x - 7} = 1\\]\nAgora pelo lado esquerdo, temos que: \\[\\lim_{x \\to 7-}\\frac{x - 7}{-x + 7} = \\lim_{x \\to 7-} (-1)\\frac{x-7}{x-7} = -1\\]"
   },
   {
     "objectID": "simulados/prova1/index.html",
@@ -30,6 +44,27 @@
   {
     "objectID": "index.html#simulados",
     "href": "index.html#simulados",
+    "title": "Início",
+    "section": "",
+    "text": "Prova 1"
+  },
+  {
+    "objectID": "listas/lista1/index.html",
+    "href": "listas/lista1/index.html",
+    "title": "Início",
+    "section": "",
+    "text": "Organização das resoluções por listas e simulados.\n\n\n\nLista 1\n\n\n\n\n\nProva 1"
+  },
+  {
+    "objectID": "listas/lista1/index.html#listas",
+    "href": "listas/lista1/index.html#listas",
+    "title": "Início",
+    "section": "",
+    "text": "Lista 1"
+  },
+  {
+    "objectID": "listas/lista1/index.html#simulados",
+    "href": "listas/lista1/index.html#simulados",
     "title": "Início",
     "section": "",
     "text": "Prova 1"
@@ -61,5 +96,12 @@
     "title": "Questão 1 - A",
     "section": "3 Resposta",
     "text": "3 Resposta\nPortanto, a solução é:\n\\[\\lim_{x \\to 2+} \\frac{x^2 - 2x}{x^2 - 4x + 4} = +\\infty\\]"
+  },
+  {
+    "objectID": "simulados/prova1/q1b.html#resposta",
+    "href": "simulados/prova1/q1b.html#resposta",
+    "title": "Questão 1 - B",
+    "section": "3 Resposta",
+    "text": "3 Resposta\nComo os limites laterais são diferentes, podemos afirmar que: \\[\\nexists\\lim_{x \\to 7}\\frac{x-7}{|x-7|}\\]"
   }
 ]

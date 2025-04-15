@@ -31,6 +31,7 @@ $$\frac{x}{(x-2)}$$
 Como $x > 2$, o termo de baixo tende a $0+$.
 
 ## Resposta
+
 Portanto, a solução é:
 
 $$\lim_{x \to 2+} \frac{x^2 - 2x}{x^2 - 4x + 4} = +\infty$$

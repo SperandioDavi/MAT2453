@@ -126,7 +126,7 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-listas">    
         <li>
-    <a class="dropdown-item" href="../../listas/lista1/index.qmd">
+    <a class="dropdown-item" href="../../listas/lista1/index.html">
  <span class="dropdown-text">Lista 1</span></a>
   </li>  
     </ul>
@@ -158,8 +158,9 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#enunciado" id="toc-enunciado" class="nav-link active" data-scroll-target="#enunciado"><span class="header-section-number">1</span> Enunciado:</a></li>
-  <li><a href="#resolução" id="toc-resolução" class="nav-link" data-scroll-target="#resolução"><span class="header-section-number">2</span> Resolução:</a></li>
+  <li><a href="#enunciado" id="toc-enunciado" class="nav-link active" data-scroll-target="#enunciado"><span class="header-section-number">1</span> Enunciado</a></li>
+  <li><a href="#resolução" id="toc-resolução" class="nav-link" data-scroll-target="#resolução"><span class="header-section-number">2</span> Resolução</a></li>
+  <li><a href="#resposta" id="toc-resposta" class="nav-link" data-scroll-target="#resposta"><span class="header-section-number">3</span> Resposta</a></li>
   </ul>
 </nav>
     </div>
@@ -185,18 +186,24 @@ window.Quarto = {
 </header>
 
 
-<section id="enunciado" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Enunciado:</h1>
+<section id="enunciado" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="enunciado"><span class="header-section-number">1</span> Enunciado</h2>
 <ol type="1">
-<li>Calcule, caso existam, os limites abaixo:</li>
-</ol>
+<li>Calcule, caso existam, os limites abaixo:
 <ol start="2" type="a">
 <li><span class="math inline">\(\lim_{x \to 7} \frac{x - 7}{|x-7|}\)</span></li>
+</ol></li>
 </ol>
 </section>
-<section id="resolução" class="level1" data-number="2">
-<h1 data-number="2"><span class="header-section-number">2</span> Resolução:</h1>
-<p>Solução aqui:</p>
+<section id="resolução" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="resolução"><span class="header-section-number">2</span> Resolução</h2>
+<p>Para calcular esse limite, vamos determinar os limites laterais.</p>
+<p>Começando pelo lado direito, temos que: <span class="math display">\[\lim_{x \to 7+}\frac{x - 7}{x - 7} = 1\]</span></p>
+<p>Agora pelo lado esquerdo, temos que: <span class="math display">\[\lim_{x \to 7-}\frac{x - 7}{-x + 7} = \lim_{x \to 7-} (-1)\frac{x-7}{x-7} = -1\]</span></p>
+</section>
+<section id="resposta" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="resposta"><span class="header-section-number">3</span> Resposta</h2>
+<p>Como os limites laterais são diferentes, podemos afirmar que: <span class="math display">\[\nexists\lim_{x \to 7}\frac{x-7}{|x-7|}\]</span></p>
 
 
 </section>
