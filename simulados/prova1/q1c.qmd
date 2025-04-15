@@ -1,0 +1,37 @@
+---
+title: "(Simulado 1 - P1) Questão 1 - C"
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+    title-block: true
+execute:
+  echo: true
+  eval: true
+  output: true
+  freeze: false
+---
+
+## Enunciado
+
+1. Calcule, caso existam, os limites abaixo:  
+$$\lim_{x \to +\infty}\frac{x^9 + 8x^5 + 2025}{x^{10} + 6x^3 + 1}$$
+
+## Resolução
+
+Primeiro, colocamos em evidência o fator $x^{10}$ no numerador e no denominador:
+
+$$\lim_{x \to +\infty}\frac{x^{10}(\frac{1}{x} + \frac{8}{x^5} + \frac{2025}{x^{10}})}{x^{10}(1 + \frac{6}{x^7} + \frac{1}{x^{10}})}$$
+
+Cancelando o termo $x^{10}$, temos que:
+$$\lim_{x \to +\infty}\frac{\frac{1}{x} + \frac{8}{x^5} + \frac{2025}{x^{10}}}{1 + \frac{6}{x^7} + \frac{1}{x^{10}}}$$
+
+Calculando o limite com $x \to +\infty$, temos que:
+$$\lim_{x \to +\infty}\frac{0 + 0 + 0}{1 + 0 + 0} = \frac{0}{1}$$
+
+## Resposta
+
+Portanto, a solução é:
+$$\lim_{x \to +\infty}\frac{x^9 + 8x^5 + 2025}{x^{10} + 6x^3 + 1} = 0$$
+    
