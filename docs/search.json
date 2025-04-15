@@ -25,7 +25,7 @@
     "href": "simulados/prova1/index.html",
     "title": "Simulado 1 - P1",
     "section": "",
-    "text": "Calcule, caso existam, os limites abaixo:\n\n\n\\(\\lim_{x \\to 2+} \\frac{x^2 - 2x}{x^2 - 4x + 4}\\)\n\\(\\lim_{x \\to 7} \\frac{x - 7}{|x-7|}\\)\n\\(\\lim_{x \\to +\\infty}\\frac{x^9 + 8x^5 + 2025}{x^{10} + 6x^3 + 1}\\)"
+    "text": "Calcule, caso existam, os limites abaixo:\n\n\n\\(\\lim_{x \\to 2+} \\frac{x^2 - 2x}{x^2 - 4x + 4}\\)\n\\(\\lim_{x \\to 7} \\frac{x - 7}{|x-7|}\\)\n\\(\\lim_{x \\to +\\infty}\\frac{x^9 + 8x^5 + 2025}{x^{10} + 6x^3 + 1}\\)\n\\(\\lim_{x \\to 0}\\frac{8x + sen x}{x + x^7}\\)"
   },
   {
     "objectID": "index.html",
@@ -131,5 +131,33 @@
     "title": "(Simulado 1 - P1) Questão 1 - C",
     "section": "3 Resposta",
     "text": "3 Resposta\nPortanto, a solução é: \\[\\lim_{x \\to +\\infty}\\frac{x^9 + 8x^5 + 2025}{x^{10} + 6x^3 + 1} = 0\\]"
+  },
+  {
+    "objectID": "simulados/prova1/q1d.html",
+    "href": "simulados/prova1/q1d.html",
+    "title": "(Simulado 1 - P1) Questão 1 - D",
+    "section": "",
+    "text": "Calcule, caso existam, os limites abaixo:\n\\[\\lim_{x \\to 0}\\frac{8x + sen x}{x + x^7}\\]"
+  },
+  {
+    "objectID": "simulados/prova1/q1d.html#enunciado",
+    "href": "simulados/prova1/q1d.html#enunciado",
+    "title": "(Simulado 1 - P1) Questão 1 - D",
+    "section": "",
+    "text": "Calcule, caso existam, os limites abaixo:\n\\[\\lim_{x \\to 0}\\frac{8x + sen x}{x + x^7}\\]"
+  },
+  {
+    "objectID": "simulados/prova1/q1d.html#resolução",
+    "href": "simulados/prova1/q1d.html#resolução",
+    "title": "(Simulado 1 - P1) Questão 1 - D",
+    "section": "2 Resolução",
+    "text": "2 Resolução\nPrimeiramente, vamos deixar em evidência o Primeiro Limite Fundamental: \\(\\lim_{x \\to 0}\\frac{sen x}{x} = 1\\):\n\\[\\lim_{x \\to 0} \\frac{senx (1 + \\frac{8x}{senx})}{x(1 + x^6)} = \\lim_{x \\to 0} \\frac{1 + \\frac{8x}{senx}}{1 + x^6}\\]\nAinda utilizando o Primeiro Limite Fundamental, podemos reescrever a expressão \\(\\frac{8x}{senx}\\): \\[\\frac{8x}{senx} = 8 \\cdot (\\frac{senx}{x})^{-1} = 8\\] Dessa forma, temos que: \\[\\lim_{x \\to 0} \\frac{1 + \\frac{8x}{senx}}{1 + x^6} = \\lim_{x \\to 0} \\frac{1 + 8}{1 + x^6} = 9\\]"
+  },
+  {
+    "objectID": "simulados/prova1/q1d.html#resposta",
+    "href": "simulados/prova1/q1d.html#resposta",
+    "title": "(Simulado 1 - P1) Questão 1 - D",
+    "section": "3 Resposta",
+    "text": "3 Resposta\nPortanto, a solução é: \\[\\lim_{x \\to 0}\\frac{8x + sen x}{x + x^7} = 9\\]"
   }
 ]
