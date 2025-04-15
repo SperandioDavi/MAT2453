@@ -2,21 +2,21 @@
   {
     "objectID": "simulados/prova1/q1b.html",
     "href": "simulados/prova1/q1b.html",
-    "title": "Questão 1 - B",
+    "title": "(Simulado 1 - P1) Questão 1 - B",
     "section": "",
-    "text": "Calcule, caso existam, os limites abaixo:\n\n\\(\\lim_{x \\to 7} \\frac{x - 7}{|x-7|}\\)"
+    "text": "Calcule, caso existam, os limites abaixo:\n\\[\\lim_{x \\to 7} \\frac{x - 7}{|x-7|}\\]"
   },
   {
     "objectID": "simulados/prova1/q1b.html#enunciado",
     "href": "simulados/prova1/q1b.html#enunciado",
-    "title": "Questão 1 - B",
+    "title": "(Simulado 1 - P1) Questão 1 - B",
     "section": "",
-    "text": "Calcule, caso existam, os limites abaixo:\n\n\\(\\lim_{x \\to 7} \\frac{x - 7}{|x-7|}\\)"
+    "text": "Calcule, caso existam, os limites abaixo:\n\\[\\lim_{x \\to 7} \\frac{x - 7}{|x-7|}\\]"
   },
   {
     "objectID": "simulados/prova1/q1b.html#resolução",
     "href": "simulados/prova1/q1b.html#resolução",
-    "title": "Questão 1 - B",
+    "title": "(Simulado 1 - P1) Questão 1 - B",
     "section": "2 Resolução",
     "text": "2 Resolução\nPara calcular esse limite, vamos determinar os limites laterais.\nComeçando pelo lado direito, temos que: \\[\\lim_{x \\to 7+}\\frac{x - 7}{x - 7} = 1\\]\nAgora pelo lado esquerdo, temos que: \\[\\lim_{x \\to 7-}\\frac{x - 7}{-x + 7} = \\lim_{x \\to 7-} (-1)\\frac{x-7}{x-7} = -1\\]"
   },
@@ -25,7 +25,7 @@
     "href": "simulados/prova1/index.html",
     "title": "Simulado 1 - P1",
     "section": "",
-    "text": "Calcule, caso existam, os limites abaixo:\n\n\n\\(\\lim_{x \\to 2+} \\frac{x^2 - 2x}{x^2 - 4x + 4}\\)\n\\(\\lim_{x \\to 7} \\frac{x - 7}{|x-7|}\\)"
+    "text": "Calcule, caso existam, os limites abaixo:\n\n\n\\(\\lim_{x \\to 2+} \\frac{x^2 - 2x}{x^2 - 4x + 4}\\)\n\\(\\lim_{x \\to 7} \\frac{x - 7}{|x-7|}\\)\n\\(\\lim_{x \\to +\\infty}\\frac{x^9 + 8x^5 + 2025}{x^{10} + 6x^3 + 1}\\)"
   },
   {
     "objectID": "index.html",
@@ -72,36 +72,64 @@
   {
     "objectID": "simulados/prova1/q1a.html",
     "href": "simulados/prova1/q1a.html",
-    "title": "Questão 1 - A",
+    "title": "(Simulado 1 - P1) Questão 1 - A",
     "section": "",
-    "text": "Calcule, caso existam, os limites abaixo:\n\n\\(\\lim_{x \\to 2+} \\frac{x^2 - 2x}{x^2 - 4x + 4}\\)"
+    "text": "Calcule, caso existam, os limites abaixo:\n\\[\\lim_{x \\to 2+} \\frac{x^2 - 2x}{x^2 - 4x + 4}\\]"
   },
   {
     "objectID": "simulados/prova1/q1a.html#enunciado",
     "href": "simulados/prova1/q1a.html#enunciado",
-    "title": "Questão 1 - A",
+    "title": "(Simulado 1 - P1) Questão 1 - A",
     "section": "",
-    "text": "Calcule, caso existam, os limites abaixo:\n\n\\(\\lim_{x \\to 2+} \\frac{x^2 - 2x}{x^2 - 4x + 4}\\)"
+    "text": "Calcule, caso existam, os limites abaixo:\n\\[\\lim_{x \\to 2+} \\frac{x^2 - 2x}{x^2 - 4x + 4}\\]"
   },
   {
     "objectID": "simulados/prova1/q1a.html#resolução",
     "href": "simulados/prova1/q1a.html#resolução",
-    "title": "Questão 1 - A",
+    "title": "(Simulado 1 - P1) Questão 1 - A",
     "section": "2 Resolução",
     "text": "2 Resolução\nPrimeiramente, vamos fatorar a expressão:\n\\[\\frac{x(x-2)}{(x-2)^2}\\]\nApós a simplificação, temos que:\n\\[\\frac{x}{(x-2)}\\]\nComo \\(x &gt; 2\\), o termo de baixo tende a \\(0+\\)."
   },
   {
     "objectID": "simulados/prova1/q1a.html#resposta",
     "href": "simulados/prova1/q1a.html#resposta",
-    "title": "Questão 1 - A",
+    "title": "(Simulado 1 - P1) Questão 1 - A",
     "section": "3 Resposta",
     "text": "3 Resposta\nPortanto, a solução é:\n\\[\\lim_{x \\to 2+} \\frac{x^2 - 2x}{x^2 - 4x + 4} = +\\infty\\]"
   },
   {
     "objectID": "simulados/prova1/q1b.html#resposta",
     "href": "simulados/prova1/q1b.html#resposta",
-    "title": "Questão 1 - B",
+    "title": "(Simulado 1 - P1) Questão 1 - B",
     "section": "3 Resposta",
     "text": "3 Resposta\nComo os limites laterais são diferentes, podemos afirmar que: \\[\\nexists\\lim_{x \\to 7}\\frac{x-7}{|x-7|}\\]"
+  },
+  {
+    "objectID": "simulados/prova1/q1c.html",
+    "href": "simulados/prova1/q1c.html",
+    "title": "(Simulado 1 - P1) Questão 1 - C",
+    "section": "",
+    "text": "Calcule, caso existam, os limites abaixo:\n\\[\\lim_{x \\to +\\infty}\\frac{x^9 + 8x^5 + 2025}{x^{10} + 6x^3 + 1}\\]"
+  },
+  {
+    "objectID": "simulados/prova1/q1c.html#enunciado",
+    "href": "simulados/prova1/q1c.html#enunciado",
+    "title": "(Simulado 1 - P1) Questão 1 - C",
+    "section": "",
+    "text": "Calcule, caso existam, os limites abaixo:\n\\[\\lim_{x \\to +\\infty}\\frac{x^9 + 8x^5 + 2025}{x^{10} + 6x^3 + 1}\\]"
+  },
+  {
+    "objectID": "simulados/prova1/q1c.html#resolução",
+    "href": "simulados/prova1/q1c.html#resolução",
+    "title": "(Simulado 1 - P1) Questão 1 - C",
+    "section": "2 Resolução",
+    "text": "2 Resolução\nPrimeiro, colocamos em evidência o fator \\(x^{10}\\) no numerador e no denominador:\n\\[\\lim_{x \\to +\\infty}\\frac{x^{10}(\\frac{1}{x} + \\frac{8}{x^5} + \\frac{2025}{x^{10}})}{x^{10}(1 + \\frac{6}{x^7} + \\frac{1}{x^{10}})}\\]\nCancelando o termo \\(x^{10}\\), temos que: \\[\\lim_{x \\to +\\infty}\\frac{\\frac{1}{x} + \\frac{8}{x^5} + \\frac{2025}{x^{10}}}{1 + \\frac{6}{x^7} + \\frac{1}{x^{10}}}\\]\nCalculando o limite com \\(x \\to +\\infty\\), temos que: \\[\\lim_{x \\to +\\infty}\\frac{0 + 0 + 0}{1 + 0 + 0} = \\frac{0}{1}\\]"
+  },
+  {
+    "objectID": "simulados/prova1/q1c.html#resposta",
+    "href": "simulados/prova1/q1c.html#resposta",
+    "title": "(Simulado 1 - P1) Questão 1 - C",
+    "section": "3 Resposta",
+    "text": "3 Resposta\nPortanto, a solução é: \\[\\lim_{x \\to +\\infty}\\frac{x^9 + 8x^5 + 2025}{x^{10} + 6x^3 + 1} = 0\\]"
   }
 ]

@@ -1,5 +1,5 @@
 ---
-title: "Questão 1 - A"
+title: "(Simulado 1 - P1) Questão 1 - A"
 format:
   html:
     toc: true
@@ -16,7 +16,7 @@ execute:
 ## Enunciado
 
 1. Calcule, caso existam, os limites abaixo:  
-   a. $\lim_{x \to 2+} \frac{x^2 - 2x}{x^2 - 4x + 4}$
+$$\lim_{x \to 2+} \frac{x^2 - 2x}{x^2 - 4x + 4}$$
 
 ## Resolução
 
