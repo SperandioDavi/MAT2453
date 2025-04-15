@@ -12,3 +12,4 @@ execute:
 a. [$\lim_{x \to 2+} \frac{x^2 - 2x}{x^2 - 4x + 4}$](q1a.qmd)
 b. [$\lim_{x \to 7} \frac{x - 7}{|x-7|}$](q1b.qmd)
 c. [$\lim_{x \to +\infty}\frac{x^9 + 8x^5 + 2025}{x^{10} + 6x^3 + 1}$](q1c.qmd)
+d. [$\lim_{x \to 0}\frac{8x + sen x}{x + x^7}$](q1d.qmd)

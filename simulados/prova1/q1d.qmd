@@ -1,0 +1,35 @@
+---
+title: "(Simulado 1 - P1) Questão 1 - D"
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+    title-block: true
+execute:
+  echo: true
+  eval: true
+  output: true
+  freeze: false
+---
+
+## Enunciado
+
+1. Calcule, caso existam, os limites abaixo:  
+$$\lim_{x \to 0}\frac{8x + sen x}{x + x^7}$$
+
+## Resolução
+
+Primeiramente, vamos deixar em evidência o _Primeiro Limite Fundamental_: $\lim_{x \to 0}\frac{sen x}{x} = 1$:
+
+$$\lim_{x \to 0} \frac{senx (1 + \frac{8x}{senx})}{x(1 + x^6)} = \lim_{x \to 0} \frac{1 + \frac{8x}{senx}}{1 + x^6}$$
+
+Ainda utilizando o _Primeiro Limite Fundamental_, podemos reescrever a expressão $\frac{8x}{senx}$:
+$$\frac{8x}{senx} = 8 \cdot (\frac{senx}{x})^{-1} = 8$$
+Dessa forma, temos que: 
+$$\lim_{x \to 0} \frac{1 + \frac{8x}{senx}}{1 + x^6} = \lim_{x \to 0} \frac{1 + 8}{1 + x^6} = 9$$
+
+## Resposta
+
+Portanto, a solução é:
+$$\lim_{x \to 0}\frac{8x + sen x}{x + x^7} = 9$$
