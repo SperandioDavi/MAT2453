@@ -33,4 +33,4 @@ $$\lim_{u \to +\infty} (1 + \frac{1}{u})^{35 \cdot u} = (\lim_{u \to +\infty} (1
 
 ## Resposta
 Portanto, a solução é:
-$$\lim_{x \to \infty} (1+ \frac{7}{x})^{5x} = e^{35}$$
+$$\lim_{x \to +\infty} (1+ \frac{7}{x})^{5x} = e^{35}$$
