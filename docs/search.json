@@ -25,7 +25,7 @@
     "href": "simulados/prova1/index.html",
     "title": "Simulado 1 - P1",
     "section": "",
-    "text": "Calcule, caso existam, os limites abaixo:\n\n\n\\(\\lim_{x \\to 2+} \\frac{x^2 - 2x}{x^2 - 4x + 4}\\)\n\\(\\lim_{x \\to 7} \\frac{x - 7}{|x-7|}\\)\n\\(\\lim_{x \\to +\\infty}\\frac{x^9 + 8x^5 + 2025}{x^{10} + 6x^3 + 1}\\)\n\\(\\lim_{x \\to 0}\\frac{8x + sen x}{x + x^7}\\)"
+    "text": "Calcule, caso existam, os limites abaixo:\n\n\n\\(\\lim_{x \\to 2+} \\frac{x^2 - 2x}{x^2 - 4x + 4}\\)\n\\(\\lim_{x \\to 7} \\frac{x - 7}{|x-7|}\\)\n\\(\\lim_{x \\to +\\infty}\\frac{x^9 + 8x^5 + 2025}{x^{10} + 6x^3 + 1}\\)\n\\(\\lim_{x \\to 0}\\frac{8x + sen x}{x + x^7}\\)\n\\(\\lim_{x \\to \\infty} (1+ \\frac{7}{x})^{5x}\\)"
   },
   {
     "objectID": "index.html",
@@ -159,5 +159,33 @@
     "title": "(Simulado 1 - P1) Questão 1 - D",
     "section": "3 Resposta",
     "text": "3 Resposta\nPortanto, a solução é: \\[\\lim_{x \\to 0}\\frac{8x + sen x}{x + x^7} = 9\\]"
+  },
+  {
+    "objectID": "simulados/prova1/q1e.html",
+    "href": "simulados/prova1/q1e.html",
+    "title": "(Simulado 1 - P1) Questão 1 - E",
+    "section": "",
+    "text": "Calcule, caso existam, os limites abaixo: \\[\\lim_{x \\to +\\infty} (1+ \\frac{7}{x})^{5x}\\]"
+  },
+  {
+    "objectID": "simulados/prova1/q1e.html#enunciado",
+    "href": "simulados/prova1/q1e.html#enunciado",
+    "title": "(Simulado 1 - P1) Questão 1 - E",
+    "section": "",
+    "text": "Calcule, caso existam, os limites abaixo: \\[\\lim_{x \\to +\\infty} (1+ \\frac{7}{x})^{5x}\\]"
+  },
+  {
+    "objectID": "simulados/prova1/q1e.html#resolução",
+    "href": "simulados/prova1/q1e.html#resolução",
+    "title": "(Simulado 1 - P1) Questão 1 - E",
+    "section": "2 Resolução",
+    "text": "2 Resolução\nPara resolver o problema vamos aproximá-lo do Limite Exponencial Fundamental: \\(\\lim_{x \\to \\pm\\infty} (1 + \\frac{1}{x})^x = e\\)\nComeçando pela fração, temos: \\[(1+ \\frac{7}{x})^{5x} = (1 + \\frac{7 \\cdot \\frac{1}{7}}{x \\cdot \\frac{1}{7}})^{5x} = (1 + \\frac{1}{x \\cdot \\frac{1}{7}})^{5x}\\]\nAgora, vamos reescrever o expoente em termos de \\(\\frac{1}{7}\\): \\[5x = x \\cdot \\frac{1}{7} \\cdot 35\\] Podemos fazer uma substituição de variável: \\[x \\cdot \\frac{1}{7} = u \\implies (1 + \\frac{1}{x \\cdot \\frac{1}{7}})^{x \\cdot \\frac{1}{7} \\cdot 35} = (1 + \\frac{1}{u})^{35 \\cdot u}\\] Podemos também reescrever a expressão da seguinte forma: \\[\\lim_{u \\to +\\infty} (1 + \\frac{1}{u})^{35 \\cdot u} = (\\lim_{u \\to +\\infty} (1 + \\frac{1}{u})^u)^{35} = e^{35}\\]"
+  },
+  {
+    "objectID": "simulados/prova1/q1e.html#resposta",
+    "href": "simulados/prova1/q1e.html#resposta",
+    "title": "(Simulado 1 - P1) Questão 1 - E",
+    "section": "3 Resposta",
+    "text": "3 Resposta\nPortanto, a solução é: \\[\\lim_{x \\to \\infty} (1+ \\frac{7}{x})^{5x} = e^{35}\\]"
   }
 ]

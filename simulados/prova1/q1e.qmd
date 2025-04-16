@@ -1,0 +1,36 @@
+---
+title: "(Simulado 1 - P1) Questão 1 - E"
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+    title-block: true
+execute:
+  echo: true
+  eval: true
+  output: true
+  freeze: false
+---
+
+## Enunciado
+
+1. Calcule, caso existam, os limites abaixo:
+$$\lim_{x \to +\infty} (1+ \frac{7}{x})^{5x}$$
+
+## Resolução
+Para resolver o problema vamos aproximá-lo do _Limite Exponencial Fundamental_: $\lim_{x \to \pm\infty} (1 + \frac{1}{x})^x = e$
+
+Começando pela fração, temos:
+$$(1+ \frac{7}{x})^{5x} = (1 + \frac{7 \cdot \frac{1}{7}}{x \cdot \frac{1}{7}})^{5x} = (1 + \frac{1}{x \cdot \frac{1}{7}})^{5x}$$
+
+Agora, vamos reescrever o expoente em termos de $\frac{1}{7}$:
+$$5x = x \cdot \frac{1}{7} \cdot 35$$
+Podemos fazer uma substituição de variável:
+$$x \cdot \frac{1}{7} = u \implies (1 + \frac{1}{x \cdot \frac{1}{7}})^{x \cdot \frac{1}{7} \cdot 35} = (1 + \frac{1}{u})^{35 \cdot u}$$
+Podemos também reescrever a expressão da seguinte forma:
+$$\lim_{u \to +\infty} (1 + \frac{1}{u})^{35 \cdot u} = (\lim_{u \to +\infty} (1 + \frac{1}{u})^u)^{35} = e^{35}$$
+
+## Resposta
+Portanto, a solução é:
+$$\lim_{x \to \infty} (1+ \frac{7}{x})^{5x} = e^{35}$$
