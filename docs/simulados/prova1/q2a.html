@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Simulado 1 - P1 – Práticas de Cálculo</title>
+<title>(Simulado 1 - P1) Questão 2 - A – Práticas de Cálculo</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -153,15 +153,23 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#enunciado" id="toc-enunciado" class="nav-link active" data-scroll-target="#enunciado"><span class="header-section-number">1</span> Enunciado</a></li>
+  <li><a href="#resolução" id="toc-resolução" class="nav-link" data-scroll-target="#resolução"><span class="header-section-number">2</span> Resolução</a></li>
+  <li><a href="#resposta" id="toc-resposta" class="nav-link" data-scroll-target="#resposta"><span class="header-section-number">3</span> Resposta</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Simulado 1 - P1</h1>
+<h1 class="title">(Simulado 1 - P1) Questão 2 - A</h1>
 </div>
 
 
@@ -178,25 +186,32 @@ window.Quarto = {
 </header>
 
 
-<ol type="1">
-<li>Calcule, caso existam, os limites abaixo:</li>
-</ol>
-<ol type="a">
-<li><a href="../../simulados/prova1/q1a.html"><span class="math inline">\(\lim_{x \to 2+} \frac{x^2 - 2x}{x^2 - 4x + 4}\)</span></a></li>
-<li><a href="../../simulados/prova1/q1b.html"><span class="math inline">\(\lim_{x \to 7} \frac{x - 7}{|x-7|}\)</span></a></li>
-<li><a href="../../simulados/prova1/q1c.html"><span class="math inline">\(\lim_{x \to +\infty}\frac{x^9 + 8x^5 + 2025}{x^{10} + 6x^3 + 1}\)</span></a></li>
-<li><a href="../../simulados/prova1/q1d.html"><span class="math inline">\(\lim_{x \to 0}\frac{8x + sen x}{x + x^7}\)</span></a></li>
-<li><a href="../../simulados/prova1/q1e.html"><span class="math inline">\(\lim_{x \to +\infty} (1+ \frac{7}{x})^{5x}\)</span></a></li>
-</ol>
-<ol start="2" type="1">
-<li>Considere a função <span class="math inline">\(f\)</span> definida por <span class="math display">\[f(x) = \begin{cases}
+<section id="enunciado" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="enunciado"><span class="header-section-number">1</span> Enunciado</h2>
+<p>A função é contínua em <span class="math inline">\(x = 0\)</span>? <span class="math display">\[f(x) = \begin{cases}
 x^9 cos\frac{1}{x^8}, &amp;\text{se } x \neq 0 \\
 0, &amp;\text{se } x = 0
-\end{cases}\]</span></li>
-</ol>
-<p>a.<a href="../../simulados/prova1/q2a.html"><span class="math inline">\(f\)</span> é contínua em x = 0?</a></p>
+\end{cases}\]</span></p>
+</section>
+<section id="resolução" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="resolução"><span class="header-section-number">2</span> Resolução</h2>
+<p>Para que a função seja contínua em <span class="math inline">\(x = 0\)</span>, precisamos que: <span class="math display">\[\lim_{x \to 0} f(x) = f(0)\]</span></p>
+<p>Temos que:</p>
+<ul>
+<li><p><span class="math inline">\(x^9 \to 0\)</span></p></li>
+<li><p>a função <span class="math inline">\(\text{cosseno}\)</span> é limitada por <span class="math inline">\([-1, 1]\)</span></p></li>
+</ul>
+<p>Portanto, utilizando o <em>Teorema do Confronto</em>:</p>
+<p><span class="math display">\[f(x) = x^9 cos \frac{1}{x^8} \leftrightarrow |f(x)| = |x^9| \cdot |cos \frac{1}{x^8}|\]</span> Como <span class="math inline">\(\text{cosseno}\)</span> é limitado: <span class="math display">\[-1 \leq cos \frac{1}{x^8} \leq 1 \implies |cos \frac{1}{x^8}| \leq 1\]</span></p>
+<p>Logo, <span class="math display">\[|f(x)| \leq |x^9| \cdot 1 \leftrightarrow |f(x)| \leq |x^9|\]</span></p>
+<p>Como <span class="math inline">\(|x^9| \to 0\)</span>, <span class="math display">\[0 \leq |f(x)| \leq |x^9| \leftrightarrow 0 \leq |f(x)| \leq 0 \implies |f(x)| = 0\]</span></p>
+</section>
+<section id="resposta" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="resposta"><span class="header-section-number">3</span> Resposta</h2>
+<p><span class="math inline">\(\text{f é contínua}\)</span>, pois: <span class="math display">\[\lim_{x \to 0} f(x) = 0 = f(0)\]</span>.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
