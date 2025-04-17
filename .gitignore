@@ -1,1 +1,14 @@
-/.quarto/
+# Quarto preview
+.quarto/preview/
+.quarto/preview/lock
+
+# RStudio
+.Rproj.user/
+*.Rproj
+
+# Sistema
+.DS_Store
+
+# Arquivos temporários
+*.log
+*.tmp
