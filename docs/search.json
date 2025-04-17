@@ -25,7 +25,7 @@
     "href": "simulados/prova1/index.html",
     "title": "Simulado 1 - P1",
     "section": "",
-    "text": "Calcule, caso existam, os limites abaixo:\n\n\n\\(\\lim_{x \\to 2+} \\frac{x^2 - 2x}{x^2 - 4x + 4}\\)\n\\(\\lim_{x \\to 7} \\frac{x - 7}{|x-7|}\\)\n\\(\\lim_{x \\to +\\infty}\\frac{x^9 + 8x^5 + 2025}{x^{10} + 6x^3 + 1}\\)\n\\(\\lim_{x \\to 0}\\frac{8x + sen x}{x + x^7}\\)\n\\(\\lim_{x \\to +\\infty} (1+ \\frac{7}{x})^{5x}\\)"
+    "text": "Calcule, caso existam, os limites abaixo:\n\n\n\\(\\lim_{x \\to 2+} \\frac{x^2 - 2x}{x^2 - 4x + 4}\\)\n\\(\\lim_{x \\to 7} \\frac{x - 7}{|x-7|}\\)\n\\(\\lim_{x \\to +\\infty}\\frac{x^9 + 8x^5 + 2025}{x^{10} + 6x^3 + 1}\\)\n\\(\\lim_{x \\to 0}\\frac{8x + sen x}{x + x^7}\\)\n\\(\\lim_{x \\to +\\infty} (1+ \\frac{7}{x})^{5x}\\)\n\n\nConsidere a função \\(f\\) definida por \\[f(x) = \\begin{cases}\nx^9 cos\\frac{1}{x^8}, &\\text{se } x \\neq 0 \\\\\n0, &\\text{se } x = 0\n\\end{cases}\\]\n\na.\\(f\\) é contínua em x = 0?"
   },
   {
     "objectID": "index.html",
@@ -187,5 +187,33 @@
     "title": "(Simulado 1 - P1) Questão 1 - E",
     "section": "3 Resposta",
     "text": "3 Resposta\nPortanto, a solução é: \\[\\lim_{x \\to +\\infty} (1+ \\frac{7}{x})^{5x} = e^{35}\\]"
+  },
+  {
+    "objectID": "simulados/prova1/q2a.html",
+    "href": "simulados/prova1/q2a.html",
+    "title": "(Simulado 1 - P1) Questão 2 - A",
+    "section": "",
+    "text": "A função é contínua em \\(x = 0\\)? \\[f(x) = \\begin{cases}\nx^9 cos\\frac{1}{x^8}, &\\text{se } x \\neq 0 \\\\\n0, &\\text{se } x = 0\n\\end{cases}\\]"
+  },
+  {
+    "objectID": "simulados/prova1/q2a.html#enunciado",
+    "href": "simulados/prova1/q2a.html#enunciado",
+    "title": "(Simulado 1 - P1) Questão 2 - A",
+    "section": "",
+    "text": "A função é contínua em \\(x = 0\\)? \\[f(x) = \\begin{cases}\nx^9 cos\\frac{1}{x^8}, &\\text{se } x \\neq 0 \\\\\n0, &\\text{se } x = 0\n\\end{cases}\\]"
+  },
+  {
+    "objectID": "simulados/prova1/q2a.html#resolução",
+    "href": "simulados/prova1/q2a.html#resolução",
+    "title": "(Simulado 1 - P1) Questão 2 - A",
+    "section": "2 Resolução",
+    "text": "2 Resolução\nPara que a função seja contínua em \\(x = 0\\), precisamos que: \\[\\lim_{x \\to 0} f(x) = f(0)\\]\nTemos que:\n\n\\(x^9 \\to 0\\)\na função \\(\\text{cosseno}\\) é limitada por \\([-1, 1]\\)\n\nPortanto, utilizando o Teorema do Confronto:\n\\[f(x) = x^9 cos \\frac{1}{x^8} \\leftrightarrow |f(x)| = |x^9| \\cdot |cos \\frac{1}{x^8}|\\] Como \\(\\text{cosseno}\\) é limitado: \\[-1 \\leq cos \\frac{1}{x^8} \\leq 1 \\implies |cos \\frac{1}{x^8}| \\leq 1\\]\nLogo, \\[|f(x)| \\leq |x^9| \\cdot 1 \\leftrightarrow |f(x)| \\leq |x^9|\\]\nComo \\(|x^9| \\to 0\\), \\[0 \\leq |f(x)| \\leq |x^9| \\leftrightarrow 0 \\leq |f(x)| \\leq 0 \\implies |f(x)| = 0\\]"
+  },
+  {
+    "objectID": "simulados/prova1/q2a.html#resposta",
+    "href": "simulados/prova1/q2a.html#resposta",
+    "title": "(Simulado 1 - P1) Questão 2 - A",
+    "section": "3 Resposta",
+    "text": "3 Resposta\n\\(\\text{f é contínua}\\), pois: \\[\\lim_{x \\to 0} f(x) = 0 = f(0)\\]."
   }
 ]

@@ -1,0 +1,48 @@
+---
+title: "(Simulado 1 - P1) Questão 2 - A"
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+    title-block: true
+execute:
+  echo: true
+  eval: true
+  output: true
+  freeze: false
+---
+
+## Enunciado
+A função é contínua em $x = 0$?
+$$f(x) = \begin{cases}
+x^9 cos\frac{1}{x^8}, &\text{se } x \neq 0 \\
+0, &\text{se } x = 0
+\end{cases}$$
+
+## Resolução
+Para que a função seja contínua em $x = 0$, precisamos que:
+$$\lim_{x \to 0} f(x) = f(0)$$
+
+Temos que:
+
+* $x^9 \to 0$
+
+* a função $\text{cosseno}$ é limitada por $[-1, 1]$
+
+
+Portanto, utilizando o _Teorema do Confronto_:
+
+$$f(x) = x^9 cos \frac{1}{x^8} \leftrightarrow |f(x)| = |x^9| \cdot |cos \frac{1}{x^8}|$$
+Como $\text{cosseno}$ é limitado:
+$$-1 \leq cos \frac{1}{x^8} \leq 1 \implies |cos \frac{1}{x^8}| \leq 1$$
+
+Logo, 
+$$|f(x)| \leq |x^9| \cdot 1 \leftrightarrow |f(x)| \leq |x^9|$$
+
+Como $|x^9| \to 0$,
+$$0 \leq |f(x)| \leq |x^9| \leftrightarrow 0 \leq |f(x)| \leq 0 \implies |f(x)| = 0$$
+
+## Resposta
+$\text{f é contínua}$, pois:
+$$\lim_{x \to 0} f(x) = 0 = f(0)$$.
