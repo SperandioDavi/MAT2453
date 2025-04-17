@@ -15,10 +15,12 @@ c. [$\lim_{x \to +\infty}\frac{x^9 + 8x^5 + 2025}{x^{10} + 6x^3 + 1}$](q1c.qmd)
 d. [$\lim_{x \to 0}\frac{8x + sen x}{x + x^7}$](q1d.qmd)
 e. [$\lim_{x \to +\infty} (1+ \frac{7}{x})^{5x}$](q1e.qmd)
 
-2. Considere a função $f$ definida por
+2. Considere a função $f$ definida por:
 $$f(x) = \begin{cases}
 x^9 cos\frac{1}{x^8}, &\text{se } x \neq 0 \\
 0, &\text{se } x = 0
 \end{cases}$$
 
-a.[$f$ é contínua em x = 0?](q2a.qmd)
+a.[$f \text{ é contínua em }x = 0\text{?}$](q2a.qmd)
+
+b.[$f \text{ é contínua em }x \neq 0\text{?}$](q2b.qmd)
