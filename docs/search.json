@@ -215,6 +215,7 @@
     "title": "(Simulado 1 - P1) Questão 2 - A",
     "section": "3 Resposta",
     "text": "3 Resposta\n\\(\\text{f é contínua}\\), pois: \\[\\lim_{x \\to 0} f(x) = 0 = f(0)\\]."
+<<<<<<< HEAD
   },
   {
     "objectID": "simulados/prova1/q2b.html",
@@ -243,5 +244,7 @@
     "title": "(Simulado 1 - P1) Questão 2 - B",
     "section": "3 Resposta",
     "text": "3 Resposta\nComo:\n\n\\(x^9\\) é contínua \\(\\forall x \\in \\mathbb{R}\\)\n\\(cos \\frac{1}{x^8}\\) é contínua em \\(x \\neq 0\\)\n\nTemos que: \\[f(x) = x^9 cos\\frac{1}{x^8} \\text{   é contínua em } x \\neq 0\\]"
+=======
+>>>>>>> 517b50b51da7f9dbe54d2930455a39e9feed9c5c
   }
 ]
