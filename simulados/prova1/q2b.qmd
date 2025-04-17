@@ -1,0 +1,57 @@
+---
+title: "(Simulado 1 - P1) Questão 2 - B"
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+    title-block: true
+execute:
+  echo: true
+  eval: true
+  output: true
+  freeze: false
+---
+## Enunciado
+A função é contínua em $x \neq 0$?
+$$f(x) = \begin{cases}
+x^9 cos\frac{1}{x^8}, &\text{se } x \neq 0 \\
+0, &\text{se } x = 0
+\end{cases}$$
+
+
+## Resolução
+Uma função é contínua em um ponto $a$ se:
+$$\lim_{x \to a} f(x) = f(a)$$
+Como estamos falando de $x \neq 0$, não estamos lidando com pontos de troca de definição. A função é dada por uma única expressão nesse domínio:
+$$f(x) = x^9 cos\frac{1}{x^8}$$
+Ou seja, basta analisar se a expressão é contínua em $x \neq 0$
+
+
+A função $f(x)$ é composta por duas partes:
+
+* $x^9$: um polinômio. Polinômios são contínuos em todo $\mathbb{R}$
+
+* $cos \frac{1}{x^8}$: 
+  + $\frac{1}{x^8}$ é contínua para todo $x \neq 0$
+  + $cos(u)$ é contínua para $\forall x \in \mathbb{R}$
+  + Portanto, a composição $cos\frac{1}{x^8}$ é contínua onde $x \neq 0$
+  
+
+Se $f$ e $g$ são contínuas em um ponto $a$, então $f \cdot g$ também é contínua em $a$.
+Logo, como:
+
+* $x^9$ é contínua $\forall x \in \mathbb{R}$
+* $cos \frac{1}{x^8}$ é contínua em $x \neq 0$
+
+Temos que:
+$$f(x) = x^9 cos\frac{1}{x^8} \text{   é contínua em } x \neq 0$$
+
+## Resposta
+Como:
+
+* $x^9$ é contínua $\forall x \in \mathbb{R}$
+* $cos \frac{1}{x^8}$ é contínua em $x \neq 0$
+
+Temos que:
+$$f(x) = x^9 cos\frac{1}{x^8} \text{   é contínua em } x \neq 0$$

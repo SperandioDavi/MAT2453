@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Simulado 1 - P1 – Práticas de Cálculo</title>
+<title>(Simulado 1 - P1) Questão 2 - B – Práticas de Cálculo</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -153,15 +153,23 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#enunciado" id="toc-enunciado" class="nav-link active" data-scroll-target="#enunciado"><span class="header-section-number">1</span> Enunciado</a></li>
+  <li><a href="#resolução" id="toc-resolução" class="nav-link" data-scroll-target="#resolução"><span class="header-section-number">2</span> Resolução</a></li>
+  <li><a href="#resposta" id="toc-resposta" class="nav-link" data-scroll-target="#resposta"><span class="header-section-number">3</span> Resposta</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Simulado 1 - P1</h1>
+<h1 class="title">(Simulado 1 - P1) Questão 2 - B</h1>
 </div>
 
 
@@ -178,26 +186,44 @@ window.Quarto = {
 </header>
 
 
-<ol type="1">
-<li>Calcule, caso existam, os limites abaixo:</li>
-</ol>
-<ol type="a">
-<li><a href="../../simulados/prova1/q1a.html"><span class="math inline">\(\lim_{x \to 2+} \frac{x^2 - 2x}{x^2 - 4x + 4}\)</span></a></li>
-<li><a href="../../simulados/prova1/q1b.html"><span class="math inline">\(\lim_{x \to 7} \frac{x - 7}{|x-7|}\)</span></a></li>
-<li><a href="../../simulados/prova1/q1c.html"><span class="math inline">\(\lim_{x \to +\infty}\frac{x^9 + 8x^5 + 2025}{x^{10} + 6x^3 + 1}\)</span></a></li>
-<li><a href="../../simulados/prova1/q1d.html"><span class="math inline">\(\lim_{x \to 0}\frac{8x + sen x}{x + x^7}\)</span></a></li>
-<li><a href="../../simulados/prova1/q1e.html"><span class="math inline">\(\lim_{x \to +\infty} (1+ \frac{7}{x})^{5x}\)</span></a></li>
-</ol>
-<ol start="2" type="1">
-<li>Considere a função <span class="math inline">\(f\)</span> definida por: <span class="math display">\[f(x) = \begin{cases}
+<section id="enunciado" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="enunciado"><span class="header-section-number">1</span> Enunciado</h2>
+<p>A função é contínua em <span class="math inline">\(x \neq 0\)</span>? <span class="math display">\[f(x) = \begin{cases}
 x^9 cos\frac{1}{x^8}, &amp;\text{se } x \neq 0 \\
 0, &amp;\text{se } x = 0
-\end{cases}\]</span></li>
-</ol>
-<p>a.<a href="../../simulados/prova1/q2a.html"><span class="math inline">\(f \text{ é contínua em }x = 0\text{?}\)</span></a></p>
-<p>b.<a href="../../simulados/prova1/q2b.html"><span class="math inline">\(f \text{ é contínua em }x \neq 0\text{?}\)</span></a></p>
+\end{cases}\]</span></p>
+</section>
+<section id="resolução" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="resolução"><span class="header-section-number">2</span> Resolução</h2>
+<p>Uma função é contínua em um ponto <span class="math inline">\(a\)</span> se: <span class="math display">\[\lim_{x \to a} f(x) = f(a)\]</span> Como estamos falando de <span class="math inline">\(x \neq 0\)</span>, não estamos lidando com pontos de troca de definição. A função é dada por uma única expressão nesse domínio: <span class="math display">\[f(x) = x^9 cos\frac{1}{x^8}\]</span> Ou seja, basta analisar se a expressão é contínua em <span class="math inline">\(x \neq 0\)</span></p>
+<p>A função <span class="math inline">\(f(x)\)</span> é composta por duas partes:</p>
+<ul>
+<li><p><span class="math inline">\(x^9\)</span>: um polinômio. Polinômios são contínuos em todo <span class="math inline">\(\mathbb{R}\)</span></p></li>
+<li><p><span class="math inline">\(cos \frac{1}{x^8}\)</span>:</p>
+<ul>
+<li><span class="math inline">\(\frac{1}{x^8}\)</span> é contínua para todo <span class="math inline">\(x \neq 0\)</span></li>
+<li><span class="math inline">\(cos(u)\)</span> é contínua para <span class="math inline">\(\forall x \in \mathbb{R}\)</span></li>
+<li>Portanto, a composição <span class="math inline">\(cos\frac{1}{x^8}\)</span> é contínua onde <span class="math inline">\(x \neq 0\)</span></li>
+</ul></li>
+</ul>
+<p>Se <span class="math inline">\(f\)</span> e <span class="math inline">\(g\)</span> são contínuas em um ponto <span class="math inline">\(a\)</span>, então <span class="math inline">\(f \cdot g\)</span> também é contínua em <span class="math inline">\(a\)</span>. Logo, como:</p>
+<ul>
+<li><span class="math inline">\(x^9\)</span> é contínua <span class="math inline">\(\forall x \in \mathbb{R}\)</span></li>
+<li><span class="math inline">\(cos \frac{1}{x^8}\)</span> é contínua em <span class="math inline">\(x \neq 0\)</span></li>
+</ul>
+<p>Temos que: <span class="math display">\[f(x) = x^9 cos\frac{1}{x^8} \text{   é contínua em } x \neq 0\]</span></p>
+</section>
+<section id="resposta" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="resposta"><span class="header-section-number">3</span> Resposta</h2>
+<p>Como:</p>
+<ul>
+<li><span class="math inline">\(x^9\)</span> é contínua <span class="math inline">\(\forall x \in \mathbb{R}\)</span></li>
+<li><span class="math inline">\(cos \frac{1}{x^8}\)</span> é contínua em <span class="math inline">\(x \neq 0\)</span></li>
+</ul>
+<p>Temos que: <span class="math display">\[f(x) = x^9 cos\frac{1}{x^8} \text{   é contínua em } x \neq 0\]</span></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
