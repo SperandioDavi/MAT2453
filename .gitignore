@@ -12,3 +12,5 @@
 # Arquivos temporários
 *.log
 *.tmp
+
+/.quarto/
