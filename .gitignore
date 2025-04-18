@@ -1,16 +1,17 @@
-# Quarto preview
+# Diretórios do Quarto
 .quarto/preview/
 .quarto/preview/lock
+.quarto/idx/
+.quarto/xref/
+.quarto/_freeze/
 
-# RStudio
+# Diretórios do RStudio
 .Rproj.user/
 *.Rproj
 
-# Sistema
+# Arquivos temporários do sistema
 .DS_Store
-
-# Arquivos temporários
 *.log
 *.tmp
 
-/.quarto/
+# OBS: docs/ deve ser mantido para o GitHub Pages funcionar
