@@ -24,3 +24,5 @@ x^9 cos\frac{1}{x^8}, &\text{se } x \neq 0 \\
 a.[$f \text{ é contínua em }x = 0\text{?}$](q2a.qmd)
 
 b.[$f \text{ é contínua em }x \neq 0\text{?}$](q2b.qmd)
+
+c.[$f \text{ é derivável em } x = 0\text{?}$](q2c.qmd)

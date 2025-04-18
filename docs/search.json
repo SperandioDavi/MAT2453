@@ -25,7 +25,7 @@
     "href": "simulados/prova1/index.html",
     "title": "Simulado 1 - P1",
     "section": "",
-    "text": "Calcule, caso existam, os limites abaixo:\n\n\n\\(\\lim_{x \\to 2+} \\frac{x^2 - 2x}{x^2 - 4x + 4}\\)\n\\(\\lim_{x \\to 7} \\frac{x - 7}{|x-7|}\\)\n\\(\\lim_{x \\to +\\infty}\\frac{x^9 + 8x^5 + 2025}{x^{10} + 6x^3 + 1}\\)\n\\(\\lim_{x \\to 0}\\frac{8x + sen x}{x + x^7}\\)\n\\(\\lim_{x \\to +\\infty} (1+ \\frac{7}{x})^{5x}\\)\n\n\nConsidere a função \\(f\\) definida por: \\[f(x) = \\begin{cases}\nx^9 cos\\frac{1}{x^8}, &\\text{se } x \\neq 0 \\\\\n0, &\\text{se } x = 0\n\\end{cases}\\]\n\na.\\(f \\text{ é contínua em }x = 0\\text{?}\\)\nb.\\(f \\text{ é contínua em }x \\neq 0\\text{?}\\)"
+    "text": "Calcule, caso existam, os limites abaixo:\n\n\n\\(\\lim_{x \\to 2+} \\frac{x^2 - 2x}{x^2 - 4x + 4}\\)\n\\(\\lim_{x \\to 7} \\frac{x - 7}{|x-7|}\\)\n\\(\\lim_{x \\to +\\infty}\\frac{x^9 + 8x^5 + 2025}{x^{10} + 6x^3 + 1}\\)\n\\(\\lim_{x \\to 0}\\frac{8x + sen x}{x + x^7}\\)\n\\(\\lim_{x \\to +\\infty} (1+ \\frac{7}{x})^{5x}\\)\n\n\nConsidere a função \\(f\\) definida por: \\[f(x) = \\begin{cases}\nx^9 cos\\frac{1}{x^8}, &\\text{se } x \\neq 0 \\\\\n0, &\\text{se } x = 0\n\\end{cases}\\]\n\na.\\(f \\text{ é contínua em }x = 0\\text{?}\\)\nb.\\(f \\text{ é contínua em }x \\neq 0\\text{?}\\)\nc.\\(f \\text{ é derivável em } x = 0\\text{?}\\)"
   },
   {
     "objectID": "index.html",
@@ -243,5 +243,47 @@
     "title": "(Simulado 1 - P1) Questão 2 - B",
     "section": "3 Resposta",
     "text": "3 Resposta\nComo:\n\n\\(x^9\\) é contínua \\(\\forall x \\in \\mathbb{R}\\)\n\\(cos \\frac{1}{x^8}\\) é contínua em \\(x \\neq 0\\)\n\nTemos que: \\[f(x) = x^9 cos\\frac{1}{x^8} \\text{   é contínua em } x \\neq 0\\]"
+  },
+  {
+    "objectID": "simulados/prova1/q2c.html",
+    "href": "simulados/prova1/q2c.html",
+    "title": "(Simulado 1 - P1) Questão 2 - C",
+    "section": "",
+    "text": "A função é derivável em \\(x = 0\\)? \\[f(x) = \\begin{cases}\nx^9 cos\\frac{1}{x^8}, &\\text{se } x \\neq 0 \\\\\n0, &\\text{se } x = 0\n\\end{cases}\\]"
+  },
+  {
+    "objectID": "simulados/prova1/q2c.html#quarto",
+    "href": "simulados/prova1/q2c.html#quarto",
+    "title": "(Simulado 1 - P1) Questão 2 - B",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "simulados/prova1/q2c.html#running-code",
+    "href": "simulados/prova1/q2c.html#running-code",
+    "title": "(Simulado 1 - P1) Questão 2 - B",
+    "section": "2 Running Code",
+    "text": "2 Running Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n1 + 1\n\n[1] 2\n\n\nYou can add options to executable code like this\n\n\n[1] 4\n\n\nThe echo: false option disables the printing of code (only output is displayed)."
+  },
+  {
+    "objectID": "simulados/prova1/q2c.html#enunciado",
+    "href": "simulados/prova1/q2c.html#enunciado",
+    "title": "(Simulado 1 - P1) Questão 2 - C",
+    "section": "",
+    "text": "A função é derivável em \\(x = 0\\)? \\[f(x) = \\begin{cases}\nx^9 cos\\frac{1}{x^8}, &\\text{se } x \\neq 0 \\\\\n0, &\\text{se } x = 0\n\\end{cases}\\]"
+  },
+  {
+    "objectID": "simulados/prova1/q2c.html#resolução",
+    "href": "simulados/prova1/q2c.html#resolução",
+    "title": "(Simulado 1 - P1) Questão 2 - C",
+    "section": "2 Resolução",
+    "text": "2 Resolução\nUma função \\(f(x)\\) é derivável em um ponto \\(a\\) se: \\[\\exists \\lim_{x \\to a} \\frac{f(x) - f(a)}{x - a}\\] Ou seja, devemos descobrir se existe o seguinte limite: \\[\\lim_{x \\to 0} \\frac{f(x) - f(0)}{x - 0}\\] \\[\\lim_{x \\to 0} \\frac{x^9 cos\\frac{1}{x^8}}{x} = \\lim_{x \\to 0} x^8 cos \\frac{1}{x^8}\\]\nAgora, vamos utilizar o Teorema do Confronto: \\[\\frac{f(x)}{x} = g(x) = x^8 cos \\frac{1}{x^8}\\implies |g(x)| = |x^8| \\cdot |cos \\frac{1}{x^8}|\\] Vamos analisar o comportamento de \\(|x^8|\\) quando \\(x \\to 0\\): \\[|x^8| \\text{ quando } x \\to 0 = 0\\]\nAnalisando \\(|cos \\frac{1}{x^8}|\\), temos que: \\[-1 \\leq cos \\frac{1}{x^8} \\leq 1 \\implies 0 \\leq |cos \\frac{1}{x^8}| \\leq 1\\]\nDessa forma, temos que: \\[\\lim_{x \\to 0} |g(x)| = \\lim_{x \\to 0} 0 \\cdot |cos \\frac{1}{x^8}| = 0\\]"
+  },
+  {
+    "objectID": "simulados/prova1/q2c.html#resposta",
+    "href": "simulados/prova1/q2c.html#resposta",
+    "title": "(Simulado 1 - P1) Questão 2 - C",
+    "section": "3 Resposta",
+    "text": "3 Resposta\nA função é derivável, pois: \\[\\lim_{x \\to 0} \\frac{x^9 cos \\frac{1}{x^8}}{x} = 0\\therefore \\exists \\lim_{x \\to 0} \\frac{x^9 cos \\frac{1}{x^8}}{x}\\]"
   }
 ]

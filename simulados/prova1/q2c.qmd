@@ -1,0 +1,43 @@
+---
+title: "(Simulado 1 - P1) Questão 2 - C"
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+    title-block: true
+execute:
+  echo: true
+  eval: true
+  output: true
+  freeze: false
+---
+
+## Enunciado
+A função é derivável em $x = 0$?
+$$f(x) = \begin{cases}
+x^9 cos\frac{1}{x^8}, &\text{se } x \neq 0 \\
+0, &\text{se } x = 0
+\end{cases}$$
+
+## Resolução
+Uma função $f(x)$ é derivável em um ponto $a$ se:
+$$\exists \lim_{x \to a} \frac{f(x) - f(a)}{x - a}$$
+Ou seja, devemos descobrir se existe o seguinte limite:
+$$\lim_{x \to 0} \frac{f(x) - f(0)}{x - 0}$$
+$$\lim_{x \to 0} \frac{x^9 cos\frac{1}{x^8}}{x} = \lim_{x \to 0} x^8 cos \frac{1}{x^8}$$
+
+Agora, vamos utilizar o _Teorema do Confronto_:
+$$\frac{f(x)}{x} = g(x) = x^8 cos \frac{1}{x^8}\implies |g(x)| = |x^8| \cdot |cos \frac{1}{x^8}|$$
+Vamos analisar o comportamento de $|x^8|$ quando $x \to 0$:
+$$|x^8| \text{ quando } x \to 0 = 0$$
+
+Analisando $|cos \frac{1}{x^8}|$, temos que:
+$$-1 \leq cos \frac{1}{x^8} \leq 1 \implies 0 \leq |cos \frac{1}{x^8}| \leq 1$$
+
+Dessa forma, temos que:
+$$\lim_{x \to 0} |g(x)| = \lim_{x \to 0} 0 \cdot |cos \frac{1}{x^8}| = 0$$
+
+## Resposta
+A função é derivável, pois:
+$$\lim_{x \to 0} \frac{x^9 cos \frac{1}{x^8}}{x} = 0\therefore \exists \lim_{x \to 0} \frac{x^9 cos \frac{1}{x^8}}{x}$$
