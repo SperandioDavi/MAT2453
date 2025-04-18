@@ -1,9 +1,6 @@
 # Diretórios do Quarto
-.quarto/preview/
-.quarto/preview/lock
-.quarto/idx/
-.quarto/xref/
-.quarto/_freeze/
+.quarto/
+!.quarto.yml
 
 # Diretórios do RStudio
 .Rproj.user/
