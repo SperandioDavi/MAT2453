@@ -5,6 +5,7 @@
 # Diretórios do RStudio
 .Rproj.user/
 *.Rproj
+.Rhistory
 
 # Arquivos temporários do sistema
 .DS_Store
