@@ -12,3 +12,4 @@
 *.tmp
 
 # OBS: docs/ deve ser mantido para o GitHub Pages funcionar
+/.quarto/
