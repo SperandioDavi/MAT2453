@@ -1,16 +1,22 @@
 # Diretórios do Quarto
 .quarto/
+/.quarto/
 !.quarto.yml
 
 # Diretórios do RStudio
 .Rproj.user/
-*.Rproj
+# *.Rproj # Contém configurações locais de interface
 .Rhistory
 
 # Arquivos temporários do sistema
 .DS_Store
 *.log
 *.tmp
+*.aux
+*.out
+*.toc
+*.swp
+*.bak
+*~
 
 # OBS: docs/ deve ser mantido para o GitHub Pages funcionar
-/.quarto/
