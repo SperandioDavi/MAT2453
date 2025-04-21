@@ -1,0 +1,49 @@
+---
+title: "(Simulado 1 - P1) Questão 2 - D"
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+    title-block: true
+execute:
+  echo: true
+  eval: true
+  output: true
+  freeze: false
+---
+
+## Enunciado
+A função é derivável em $x \neq 0$?
+$$f(x) = \begin{cases}
+x^9 \cos\left(\frac{1}{x^8}\right), &\text{se } x \neq 0 \\
+0, &\text{se } x = 0
+\end{cases}$$
+
+## Resolução
+Como estamos interessados apenas nos pontos $x \neq 0$, vamos analisar a função $f(x) = x^9 \cos\left(\frac{1}{x^8}\right)$.
+
+Ela é o produto de duas funções:
+
+- $g(x) = x^9$
+- $h(x) = \cos\left(\frac{1}{x^8}\right)$
+
+Começando por $g$:
+$$g'(x) = 9x^8$$
+
+Agora, para $h$, aplicamos a _regra da cadeia_:
+$$h(x) = \cos\left(\frac{1}{x^8}\right)$$
+Derivando:
+$$h'(x) = -\sin\left(\frac{1}{x^8}\right) \cdot \left(\frac{d}{dx} \frac{1}{x^8}\right) = -\sin\left(\frac{1}{x^8}\right) \cdot (-8x^{-9})$$
+$$h'(x) = 8x^{-9} \sin\left(\frac{1}{x^8}\right)$$
+
+Aplicando a _regra do produto_:
+$$f'(x) = g'(x) \cdot h(x) + g(x) \cdot h'(x)$$
+Substituindo:
+$$f'(x) = 9x^8 \cdot \cos\left(\frac{1}{x^8}\right) + x^9 \cdot 8x^{-9} \cdot \sin\left(\frac{1}{x^8}\right)$$
+$$f'(x) = 9x^8 \cos\left(\frac{1}{x^8}\right) + 8 \sin\left(\frac{1}{x^8}\right)$$
+
+Essa expressão é bem definida para todo $x \neq 0$, portanto $f$ é derivável em todos os pontos com $x \neq 0$.
+
+## Resposta
+Sim, $f$ é derivável para todo $x \neq 0$.
