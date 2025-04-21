@@ -1,7 +1,7 @@
 # ========================
 # Ignorar arquivos do Quarto
 # ========================
-**/.quarto/                # Qualquer pasta .quarto em qualquer nível
+.quarto/
 !.quarto.yml               # Exceto o arquivo de configuração raiz
 
 # ========================
