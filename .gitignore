@@ -1,1 +1,29 @@
-/.quarto/
+# ========================
+# Ignorar arquivos do Quarto
+# ========================
+**/.quarto/                # Qualquer pasta .quarto em qualquer nível
+!.quarto.yml               # Exceto o arquivo de configuração raiz
+
+# ========================
+# Ignorar arquivos do RStudio
+# ========================
+.Rproj.user/               # Configurações locais do RStudio
+**/.Rhistory               # Histórico de comandos, pode ser gerado em subpastas
+
+# ========================
+# Ignorar arquivos temporários de sistema e editores
+# ========================
+.DS_Store                  # macOS
+*.log                      # Logs em geral
+*.tmp                      # Temporários
+*.aux                      # Arquivos auxiliares de LaTeX
+*.out                      # Saída de compilação
+*.toc                      # Tabela de conteúdo de LaTeX
+*.swp                      # Vim swap
+*.bak                      # Backups
+*~                         # Temporários de editores
+
+# ========================
+# Manter pasta do GitHub Pages
+# ========================
+!docs/
