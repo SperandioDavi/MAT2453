@@ -25,7 +25,7 @@
     "href": "simulados/prova1/index.html",
     "title": "Simulado 1 - P1",
     "section": "",
-    "text": "Calcule, caso existam, os limites abaixo:\n\n\n\\(\\lim_{x \\to 2+} \\frac{x^2 - 2x}{x^2 - 4x + 4}\\)\n\\(\\lim_{x \\to 7} \\frac{x - 7}{|x-7|}\\)\n\\(\\lim_{x \\to +\\infty}\\frac{x^9 + 8x^5 + 2025}{x^{10} + 6x^3 + 1}\\)\n\\(\\lim_{x \\to 0}\\frac{8x + sen x}{x + x^7}\\)\n\\(\\lim_{x \\to +\\infty} (1+ \\frac{7}{x})^{5x}\\)\n\n\nConsidere a função \\(f\\) definida por: \\[f(x) = \\begin{cases}\nx^9 cos\\frac{1}{x^8}, &\\text{se } x \\neq 0 \\\\\n0, &\\text{se } x = 0\n\\end{cases}\\]\n\na.\\(f \\text{ é contínua em }x = 0\\text{?}\\)\nb.\\(f \\text{ é contínua em }x \\neq 0\\text{?}\\)\nc.\\(f \\text{ é derivável em } x = 0\\text{?}\\)"
+    "text": "Calcule, caso existam, os limites abaixo:\n\n\n\\(\\lim_{x \\to 2+} \\frac{x^2 - 2x}{x^2 - 4x + 4}\\)\n\\(\\lim_{x \\to 7} \\frac{x - 7}{|x-7|}\\)\n\\(\\lim_{x \\to +\\infty}\\frac{x^9 + 8x^5 + 2025}{x^{10} + 6x^3 + 1}\\)\n\\(\\lim_{x \\to 0}\\frac{8x + sen x}{x + x^7}\\)\n\\(\\lim_{x \\to +\\infty} (1+ \\frac{7}{x})^{5x}\\)\n\n\nConsidere a função \\(f\\) definida por: \\[f(x) = \\begin{cases}\nx^9 cos\\frac{1}{x^8}, &\\text{se } x \\neq 0 \\\\\n0, &\\text{se } x = 0\n\\end{cases}\\]\n\na.\\(f \\text{ é contínua em }x = 0\\text{?}\\)\nb.\\(f \\text{ é contínua em }x \\neq 0\\text{?}\\)\nc.\\(f \\text{ é derivável em } x = 0\\text{?}\\)\nd.\\(f \\text{ é derivável em } x \\neq 0\\text{?}\\)"
   },
   {
     "objectID": "index.html",
@@ -285,5 +285,33 @@
     "title": "(Simulado 1 - P1) Questão 2 - C",
     "section": "3 Resposta",
     "text": "3 Resposta\nA função é derivável, pois: \\[\\lim_{x \\to 0} \\frac{x^9 cos \\frac{1}{x^8}}{x} = 0\\therefore \\exists \\lim_{x \\to 0} \\frac{x^9 cos \\frac{1}{x^8}}{x}\\]"
+  },
+  {
+    "objectID": "simulados/prova1/q2d.html",
+    "href": "simulados/prova1/q2d.html",
+    "title": "(Simulado 1 - P1) Questão 2 - D",
+    "section": "",
+    "text": "A função é derivável em \\(x \\neq 0\\)? \\[f(x) = \\begin{cases}\nx^9 \\cos\\left(\\frac{1}{x^8}\\right), &\\text{se } x \\neq 0 \\\\\n0, &\\text{se } x = 0\n\\end{cases}\\]"
+  },
+  {
+    "objectID": "simulados/prova1/q2d.html#enunciado",
+    "href": "simulados/prova1/q2d.html#enunciado",
+    "title": "(Simulado 1 - P1) Questão 2 - D",
+    "section": "",
+    "text": "A função é derivável em \\(x \\neq 0\\)? \\[f(x) = \\begin{cases}\nx^9 \\cos\\left(\\frac{1}{x^8}\\right), &\\text{se } x \\neq 0 \\\\\n0, &\\text{se } x = 0\n\\end{cases}\\]"
+  },
+  {
+    "objectID": "simulados/prova1/q2d.html#resolução",
+    "href": "simulados/prova1/q2d.html#resolução",
+    "title": "(Simulado 1 - P1) Questão 2 - D",
+    "section": "2 Resolução",
+    "text": "2 Resolução\nComo estamos interessados apenas nos pontos \\(x \\neq 0\\), vamos analisar a função \\(f(x) = x^9 \\cos\\left(\\frac{1}{x^8}\\right)\\).\nEla é o produto de duas funções:\n\n\\(g(x) = x^9\\)\n\\(h(x) = \\cos\\left(\\frac{1}{x^8}\\right)\\)\n\nComeçando por \\(g\\): \\[g'(x) = 9x^8\\]\nAgora, para \\(h\\), aplicamos a regra da cadeia: \\[h(x) = \\cos\\left(\\frac{1}{x^8}\\right)\\] Derivando: \\[h'(x) = -\\sin\\left(\\frac{1}{x^8}\\right) \\cdot \\left(\\frac{d}{dx} \\frac{1}{x^8}\\right) = -\\sin\\left(\\frac{1}{x^8}\\right) \\cdot (-8x^{-9})\\] \\[h'(x) = 8x^{-9} \\sin\\left(\\frac{1}{x^8}\\right)\\]\nAplicando a regra do produto: \\[f'(x) = g'(x) \\cdot h(x) + g(x) \\cdot h'(x)\\] Substituindo: \\[f'(x) = 9x^8 \\cdot \\cos\\left(\\frac{1}{x^8}\\right) + x^9 \\cdot 8x^{-9} \\cdot \\sin\\left(\\frac{1}{x^8}\\right)\\] \\[f'(x) = 9x^8 \\cos\\left(\\frac{1}{x^8}\\right) + 8 \\sin\\left(\\frac{1}{x^8}\\right)\\]\nEssa expressão é bem definida para todo \\(x \\neq 0\\), portanto \\(f\\) é derivável em todos os pontos com \\(x \\neq 0\\)."
+  },
+  {
+    "objectID": "simulados/prova1/q2d.html#resposta",
+    "href": "simulados/prova1/q2d.html#resposta",
+    "title": "(Simulado 1 - P1) Questão 2 - D",
+    "section": "3 Resposta",
+    "text": "3 Resposta\nSim, \\(f\\) é derivável para todo \\(x \\neq 0\\)."
   }
 ]
