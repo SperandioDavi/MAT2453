@@ -23,11 +23,3 @@ format:
     number-sections: true
     theme: cosmo
     title-block: true
-    
-render:
-  - index.qmd
-  - listas/lista1/index.qmd
-  - simulados/prova1/index.qmd
-  - simulados/prova1/q1a.qmd
-  - simulados/prova1/q1b.qmd
-  - simulados/prova1/q1c.qmd
